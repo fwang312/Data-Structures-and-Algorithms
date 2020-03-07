@@ -32,3 +32,5 @@ class Solution:
 * If the left and right are the same, then we increase right by one and decrease left by one.
 
 * Then we continue to check the characters between them, if they are not palindrome then we will try to delete the left character or right characters and check the rest is palindrome or not.
+
+* else checks after delete right/left character and see if they satisfy the palindrome or not.
